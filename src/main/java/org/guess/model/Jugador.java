@@ -20,7 +20,7 @@ public class Jugador {
         this.nombre = nombre;
     }
 
-    public int getVidas() {
+    public int mostrarVidas() {
         return vidas;
     }
 
@@ -28,7 +28,7 @@ public class Jugador {
         this.vidas = vidas;
     }
 
-    public double getPuntos() {
+    public double mostrarPuntaje() {
         return puntos;
     }
 

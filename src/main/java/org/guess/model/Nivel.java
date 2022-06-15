@@ -1,9 +1,15 @@
 package org.guess.model;
 
-public class Nivel {
-    private String dificultad;
+import java.util.ArrayList;
 
-    public void seleccionarAdivinanza(){
-        //TODO:
+public class Nivel {
+
+    private String dificultad;
+    private ArrayList<Adivinanza> adivinanzas;
+
+    public Adivinanza seleccionarAdivinanza(int i){
+        return adivinanzas.get(i);
     }
+
+
 }
