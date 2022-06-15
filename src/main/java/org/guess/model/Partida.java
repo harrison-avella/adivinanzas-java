@@ -3,6 +3,8 @@ package org.guess.model;
 import java.util.ArrayList;
 
 public class Partida {
+    public Partida() {
+    }
 
     //TODO: Revisar tipo de dato y donde se sacaran las imagenes
     private ArrayList<Byte> imagenes;
